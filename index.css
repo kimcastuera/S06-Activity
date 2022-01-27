@@ -1,0 +1,92 @@
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	padding: 0.8rem;
+	margin-bottom: 2rem;
+	border-bottom: 2rem;
+	border-bottom: 1px solid gray;
+	list-style-type: none;
+}
+
+nav .nav, nav .nav-logo {
+	display: inline;
+	margin: 0.8rem;
+}
+
+#intro {
+	padding: 2rem 10%;
+	text-align: center;
+}
+
+#intro > h2,
+#intro p, 
+#succeed-info h2  {
+	margin-bottom: 1rem;
+}
+
+#intro button {
+	color: white;
+	background-color: #c2195b;
+	border-radius: 25px;
+	padding: 1rem;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+#succeed-info {
+	padding: 2rem 10%;
+}
+
+#succeed-info h3, #succeed-info .header {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+#succeed-info .card {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	width: 30%;
+	min-height: 180px;
+}
+
+#pre-footer div{
+	display: inline-block;
+	vertical-align: top;
+	margin: 30px;
+	width: 20%;
+	color: white;
+	padding-right: 4rem;
+}
+
+#pre-footer > div > h3 {
+	margin-bottom: 20px;
+}
+
+#pre-footer p {
+	margin-top: 10px;
+}
+
+#pre-footer {
+	background-color: #002540;
+}
+
+footer {
+	padding: 1rem;
+	text-align: center;
+}
+
+footer span {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
